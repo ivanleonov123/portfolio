@@ -26,4 +26,15 @@ class PageController extends Controller
     {
         return view('contact');
     }
+
+    public function downloadResume()
+    {
+        $filePath = public_path('resume.pdf');
+        
+        if (!file_exists($filePath)) {
+            abort(404, 'Resume not found');
+        }
+        
+        return response()->download($filePath, 'Ivan_Leonov_Resume.pdf');
+    }
 }

@@ -17,6 +17,10 @@
         I build robust APIs, optimize data pipelines, and create reliable systems that scale. 
         My core stack includes PHP, Laravel, Symfony, MySQL, and modern DevOps tools.
     </p>
+    <a href="{{ route('resume.download') }}" 
+       class="inline-block mt-4 px-6 py-3 border border-gray-700 rounded-lg text-white hover:bg-gray-800 hover:border-gray-600 transition-colors duration-200">
+        Download Resume (PDF)
+    </a>
 </section>
 
 {{-- Table of Contents --}}
