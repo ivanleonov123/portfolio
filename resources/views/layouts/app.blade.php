@@ -11,7 +11,7 @@
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background-color: #02033afb;
+            background-color:rgba(15, 23, 42, 0.98);
             position: relative;
             overflow-x: hidden;
         }
@@ -86,6 +86,17 @@
             padding: 15px 0;
             color: #6b7280;
             font-size: 13px;
+        }
+
+        /* Contents navigation links */
+        .contents-nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 0.875rem;
+        }
+        .contents-nav a:hover {
+            color: #e5e7eb;
+            text-decoration: underline;
         }
     </style>
 </head>

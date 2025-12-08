@@ -22,22 +22,17 @@
 {{-- Table of Contents --}}
 <section class="py-6 border-t border-b border-gray-700">
     <h2 class="text-lg font-semibold mb-4 text-white">Contents</h2>
-    <nav class="flex flex-wrap gap-3">
-        <a href="#what-i-do" class="text-blue-400 hover:text-blue-300 text-sm hover:underline">What I Do</a>
-        <span class="text-gray-600">•</span>
-        <a href="#engineering-story" class="text-blue-400 hover:text-blue-300 text-sm hover:underline">My Engineering Story</a>
-        <span class="text-gray-600">•</span>
-        <a href="#projects-impact" class="text-blue-400 hover:text-blue-300 text-sm hover:underline">Projects & Impact</a>
-        <span class="text-gray-600">•</span>
-        <a href="#accomplishments" class="text-blue-400 hover:text-blue-300 text-sm hover:underline">Accomplishments</a>
-        <span class="text-gray-600">•</span>
-        <a href="#philosophy" class="text-blue-400 hover:text-blue-300 text-sm hover:underline">Philosophy</a>
-        <span class="text-gray-600">•</span>
-        <a href="#personal" class="text-blue-400 hover:text-blue-300 text-sm hover:underline">Personal Side</a>
-        <span class="text-gray-600">•</span>
-        <a href="#tech-stack" class="text-blue-400 hover:text-blue-300 text-sm hover:underline">Tech Stack</a>
-        <span class="text-gray-600">•</span>
-        <a href="#current-work" class="text-blue-400 hover:text-blue-300 text-sm hover:underline">Current Work</a>
+    <nav class="contents-nav">
+        <ul class="list-disc list-inside flex flex-col gap-2">
+            <li><a href="#what-i-do">What I Do</a></li>
+            <li><a href="#engineering-story">My Engineering Story</a></li>
+            <li><a href="#projects-impact">Projects & Impact</a></li>
+            <li><a href="#accomplishments">Accomplishments</a></li>
+            <li><a href="#philosophy">Philosophy</a></li>
+            <li><a href="#personal">Personal Side</a></li>
+            <li><a href="#tech-stack">Tech Stack</a></li>
+            <li><a href="#current-work">Current Work</a></li>
+        </ul>
     </nav>
 </section>
 
